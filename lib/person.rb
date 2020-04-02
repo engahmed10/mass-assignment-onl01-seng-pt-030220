@@ -3,8 +3,8 @@ class Person
   attr_accessor :name
 def initialize(attr)
 
-       attr.each do |key,value| 
-         self.send(("#{key}"),value) 
+       attr.each do |key,value|
+         self.send(("#{key}"),value)
        end
 
 end
